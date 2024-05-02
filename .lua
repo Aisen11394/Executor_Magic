@@ -1379,7 +1379,7 @@ function loader()
 			wait(1)
 			ProgressBar(30, "Setup Complete!", 1)
 			wait(0.5)
-MainFrame.LoaderFrame.Visible = false
+			MainFrame.LoaderFrame.Visible = false
 		
 			repeat task.wait() until Loader and MainUI
 		
