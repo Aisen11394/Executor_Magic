@@ -1390,7 +1390,7 @@ function loader()
 		
 		local s, ValidateFailed = pcall(function()
 			if keyless then
-				warn(']---------Trigon is Keyless!!---------[')
+				warn(']---------Magic is Keyless!!---------[')
 				finalizeSetup()
 			else
 				local keyValid = PandaAuth:ValidateKey(ServiceID, Settings.Trigonkey)
@@ -5053,6 +5053,13 @@ task.spawn(function()
 					"text": "getgenv().Key = \"Bash\" loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex\",true))()"
 				},
 				{
+
+                                        "scriptName": "Ghost Hub V4",
+				        "text": "loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))(Fixed)"
+				
+				},
+				{
+				
 					"scriptName": "Bypassed Dark Dex v3",
 					"text": "loadstring(game:HttpGet('https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua', true))()"
 				}
@@ -5545,4 +5552,4 @@ main()
 
 loader()
 
-print("-----] Trigon Loaded [-----")
+print("-----] Magic Loaded [-----")
