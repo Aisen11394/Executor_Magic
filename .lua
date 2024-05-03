@@ -56,7 +56,7 @@ local key = "https://trigonevo.com/getkey/?hwid="..HWID
 local ServiceID, LibType, LibVersion = "trigon-evo", "roblox", "v2" 
 local PandaAuth, authlink
 
-local keyless = true
+local keyless = false
 
 if keyless then
 	print("Keyless")
