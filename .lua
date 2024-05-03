@@ -36,10 +36,10 @@ end)
   
 
 --[[
-	NAME: Trigon
+	NAME: Magic
 	VERSION: Android
-	USER_AGENT: Trigon Android
-	FINGERPRINT: Trigon_Fingerprint
+	USER_AGENT: Magic Android
+	FINGERPRINT: Magic_Fingerprint
 ]]
 
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
